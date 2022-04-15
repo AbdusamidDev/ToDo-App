@@ -110,6 +110,7 @@ class MainActivity4 : AppCompatActivity() {
 
     fun btn_Save() {
         btn_save.setOnClickListener {
-            Toast.makeText(this, "SAVE", Toast.LENGTH_SHORT).show()}
+            Toast.makeText(this, "SAVE", Toast.LENGTH_SHORT).show()
+        }
     }
 }
